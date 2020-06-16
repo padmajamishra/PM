@@ -16,6 +16,8 @@ public class ScheduleJobTest {
 	  driver.get("http://www.guru99.com");
 	  System.out.println("in the guru site now");
 	  System.out.println("Page title is : "+driver.getTitle());
+	  System.out.println("git-1"); 
+	 
   }
   @BeforeTest
   public void SetBrowser() {
